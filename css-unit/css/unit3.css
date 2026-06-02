@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.header {
+    height: 100px;
+    background: tomato;
+}
+
+.main {
+    min-height: calc(100vh - 200px);
+}
+
+.footer {
+    height: 100px;
+    background: orange;
+}

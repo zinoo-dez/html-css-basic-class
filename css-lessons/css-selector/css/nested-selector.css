@@ -1,0 +1,31 @@
+div.bg-lightgreen {
+    background: lightgreen;
+}
+
+p {
+    color: red;
+}
+
+.bg-lightgreen {
+    background: lightgreen;
+}
+
+.card-1,
+.card-2 {
+    padding: 30px;
+    background: lightpink;
+    width: 500px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.card-1 p {
+    color: blue;
+    font-size: 20px;
+}
+
+.card-2 p {
+    color: rgb(44, 54, 54);
+    font-size: 30px;
+    font-weight: bold;
+}

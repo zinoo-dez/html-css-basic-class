@@ -1,0 +1,45 @@
+input {
+    padding: 20px;
+    color: red;
+}
+
+input::placeholder {
+    color: green;
+    font-size: 18px;
+}
+
+.second-item {
+    background: red;
+}
+
+/* next sibling */
+.second-item+li {
+    background: blue;
+}
+
+/* general sibling */
+.second-item~li {
+    /* background: green; */
+    text-align: center;
+    padding: 10px;
+}
+
+.main :first-child {
+    background: lightblue;
+}
+
+.main :last-child {
+    background: rgb(126, 241, 184);
+}
+
+.main :nth-child(3) {
+    background: green;
+}
+
+.main :nth-child(even) {
+    text-align: center;
+}
+
+.main :nth-child(odd) {
+    text-align: right;
+}

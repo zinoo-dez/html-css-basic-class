@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 2000px;
+}
+
+nav {
+    height: 100px;
+    background: red;
+    /* position: fixed; */
+    /* top: 0; */
+    /* left: 0;
+    right: 0; */
+    position: sticky;
+    top: 0;
+    z-index: 1000000;
+}
+
+main {
+    /* margin-top: 100px; */
+    height: 100vh;
+    background: green;
+}
+
+footer {
+    height: 100px;
+    background: blue;
+    position: sticky;
+    top: 100px;
+}
+
+button {
+    background: green;
+    color: #fff;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border-color: #fff;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+a {
+    color: #fff;
+    /* background: yellow; */
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 55px;
+}

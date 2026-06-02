@@ -1,0 +1,52 @@
+.card-1 {
+    background: lightblue;
+}
+
+.card-2 {
+    background: lightgreen;
+}
+
+.card-3 {
+    background: lightgray;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.border-radius-10 {
+    border-radius: 10px;
+}
+
+.border-radius-50 {
+    border-radius: 50px;
+}
+
+.w-800 {
+    width: 800px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+
+.btn-pink {
+    background-color: pink;
+}
+
+.btn-orange {
+    background-color: orange;
+}

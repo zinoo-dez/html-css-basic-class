@@ -1,0 +1,62 @@
+p {
+    color: rgb(246, 244, 244);
+    background-color: green;
+    width: 300px;
+    padding: 20px;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+p:hover {
+    color: rgb(54, 44, 44);
+    border-radius: 20px;
+    background: lightgreen;
+}
+
+a {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+a:visited {
+    color: tomato;
+}
+
+input {
+    padding: 20px;
+}
+
+/* attribute selector */
+input[type="text"]:active {
+    background-color: green;
+    color: white;
+}
+
+input[type="email"]:focus {
+    background-color: rgb(147, 249, 147);
+    color: white;
+}
+
+input[type="password"] {
+    background-color: rgb(249, 147, 243);
+    color: white;
+}
+
+h2 {
+    background: red;
+    width: 300px;
+    text-align: center;
+    color: white;
+}
+
+h2::before {
+    content: "HTML";
+    background: yellow;
+    display: block;
+}
+
+h2::after {
+    content: "JS";
+    background: green;
+    display: block;
+}

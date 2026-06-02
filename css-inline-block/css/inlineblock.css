@@ -1,0 +1,29 @@
+h1 {
+    width: 300px;
+    text-align: center;
+    /* background: lightblue; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    background: lightgreen;
+}
+
+p {
+    background: tomato;
+    width: 400px;
+    height: 50px;
+    /* display: inline; */
+}
+
+/* inline element can't set width and height */
+a {
+    background: #4edadc;
+    width: 200px;
+    height: 50px;
+    /* display: block; */
+    display: inline-block;
+}

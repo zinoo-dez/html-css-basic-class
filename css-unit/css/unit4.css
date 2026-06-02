@@ -1,0 +1,15 @@
+* {
+    font-size: 16px;
+}
+
+.box {
+    width: 50rem;
+    background: lightblue;
+}
+
+p {
+    font-size: 50px;
+    /* 16+8 = 24px (rem)*/
+    /* 50+25=75px (em) */
+    line-height: 1.5em;
+}

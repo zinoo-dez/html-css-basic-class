@@ -1,0 +1,5 @@
+.app {
+    width: 800px;
+    height: 600px;
+    background: linear-gradient(0deg, #f2ebeb80 0%, #faf4f464 100%), url("../../Gallery/photo-1773332611550-9f5a465b4e42.avif");
+}

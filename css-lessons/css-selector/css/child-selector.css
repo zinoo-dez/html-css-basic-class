@@ -1,0 +1,20 @@
+.box {
+    padding: 20px;
+    background: lightblue;
+}
+
+.box h2 {
+    color: red;
+}
+
+.box>h2 {
+    color: #090806;
+}
+
+.child-1>h2 {
+    color: pink;
+}
+
+.child-2>h2 {
+    color: rgb(79, 164, 193);
+}

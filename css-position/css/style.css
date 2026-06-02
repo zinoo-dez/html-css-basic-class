@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 800px;
+    height: 600px;
+    margin-left: 400px;
+    background: lightgreen;
+    position: relative;
+}
+
+.box-1,
+.box-2 {
+    width: 200px;
+    height: 150px;
+    text-align: center;
+}
+
+.box-1 {
+    background: rgb(173, 216, 230);
+    height: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: translateX(-50%) translateY(-50%); */
+    transform: translate(-50%, -50%);
+    /* right: 0; */
+    font-size: 3rem;
+    line-height: 350px;
+    z-index: 2;
+    opacity: 0.6;
+}
+
+.box-2 {
+    background: rgb(68, 108, 148);
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 150px;
+    z-index: 1;
+}
