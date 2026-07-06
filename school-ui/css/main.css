@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: var(--primary-dark-blue);
+}
+
+:root {
+    --primary-blue: #007bff;
+    --primary-dark-blue: #002b4e;
+    --secondary-green: #28a745;
+    --secondary-light-green: #5fcf70;
+    --secondary-dark-green: #208b3a;
+    --bg-white: #ffffff;
+    --text-white: #ffffff;
+    --text-black: #000000;
+}
+
+body {
+    font-family: Arial;
+}
+
+.navbar {
+    /* background: var(--secondary-light-green); */
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 90px;
+    box-shadow: 0 0 10px rgba(235, 230, 230, 0.693);
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    z-index: 999999;
+}
+
+.nav-links a {
+    transition: 0.4s;
+}
+
+.nav-links a:hover {
+    border-bottom: 3px solid var(--primary-dark-blue);
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.logo {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.btn {
+    display: block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: var(--text-white);
+    text-align: center;
+}
+
+.btn-active {
+    background: var(--secondary-dark-green);
+}
+
+.btn:hover {
+    background: var(--secondary-green);
+}
+
+.menu-icon,
+.d-none {
+    display: none;
+}
+
+.hero-section {
+    min-height: calc(100vh - 90px);
+    background: #f3efef;
+    padding: 50px;
+}
+
+.hero-main {
+    position: relative;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    /* background: lightblue; */
+}
+
+.hero-img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.hero-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    text-align: center;
+    backdrop-filter: blur(4px);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.hero-info * {
+    color: var(--text-white);
+}
+
+.subject-categories {
+    /* background: lightblue; */
+    padding: 30px 0;
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-evenly;
+    /* gap: 20px; */
+}
+
+.subject-categories * {
+    text-align: center;
+}
+
+.subject-categories img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* skills section */
+.skills {
+    width: 100%;
+    min-height: 500px;
+    padding: 30px;
+    /* background: var(--primary-blue); */
+    display: flex;
+}
+
+.skills-info {
+    flex: 1;
+    /* background: lightgreen; */
+}
+
+.skills-img {
+    flex: 1;
+    /* background: lightblue; */
+}
+
+
+
+
+.skills-info {
+    padding: 20px 60px;
+}
+
+.info {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.info-card {
+    width: 250px;
+    position: relative;
+}
+
+.info-card::before {
+    content: "🍎";
+    position: absolute;
+    top: -5px;
+    left: -30px;
+    font-size: 1.5rem;
+}
+
+.info-card h4 {
+    margin-bottom: 5px;
+}
+
+.skills-card {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.skills-card img {
+    height: 350px;
+    object-fit: cover;
+    object-position: top;
+    filter: drop-shadow(2px 2px 2px #ebe4e4);
+}
+
+.shape {
+    width: 250px;
+    height: 290px;
+    background: rgb(188, 233, 248);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%) skewX(-20deg);
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--primary-dark-blue);
+}
+
+/* bootcamp */
+.bootcamp {
+    width: 100%;
+    min-height: 70vh;
+    padding: 30px;
+    background: #90ee901f;
+}
+
+.bootcamp-container {
+    display: flex;
+    gap: 40px;
+    justify-content: space-evenly;
+    padding: 20px 60px;
+}
+
+.bootcamp-info {
+    /* border: 1px solid darkgreen; */
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px #a9ebd9;
+    border-radius: 20px;
+    flex: 1;
+}
+
+.bootcamp-info-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bootcamp-info img {
+    width: 100%;
+    height: 200px;
+    border-radius: 20px 20px 0 0;
+}

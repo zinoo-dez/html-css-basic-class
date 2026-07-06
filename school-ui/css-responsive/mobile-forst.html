@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            padding: 10px;
+            background: lightblue;
+        }
+
+        /* mobile-first approach */
+        /* start from smallest to largest viewport */
+
+        @media (min-width: 578px) {
+            p {
+                padding: 30px;
+                background: pink;
+            }
+        }
+
+        @media (min-width: 768px) {
+            p {
+                padding: 40px;
+                background: green;
+            }
+        }
+
+        @media (min-width: 1000px) {
+            p {
+                padding: 50px;
+                background: red;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid nisi, quaerat pariatur molestiae, cumque
+        asperiores adipisci delectus neque recusandae exercitationem, deserunt iste? Incidunt voluptates nesciunt
+        ducimus adipisci cumque. Vitae beatae voluptas quidem eius officiis, excepturi repudiandae et nostrum laborum
+        aperiam hic obcaecati assumenda tempora, distinctio inventore non alias, repellat illum tenetur consectetur
+        placeat sint? Laudantium, consectetur ratione! Corporis, esse accusantium alias quibusdam nostrum velit ea
+        optio? Odit architecto voluptatibus quia quas sunt animi dignissimos alias vitae! Voluptate modi ipsam ut, nulla
+        quo repellendus totam ducimus esse, nisi fugiat voluptatem aspernatur sit vero suscipit aut eveniet a velit
+        facere deserunt mollitia!</p>
+</body>
+
+</html>

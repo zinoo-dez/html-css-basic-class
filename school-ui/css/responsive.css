@@ -1,0 +1,87 @@
+@media (max-width:992px) {
+    .hero-img {
+        height: 70vh;
+    }
+}
+
+@media (max-width:620px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .menu-icon,
+    .d-none {
+        display: block;
+    }
+
+    .navbar {
+        padding: 0 20px;
+    }
+
+    .nav-buttons {
+        display: none;
+    }
+
+    .nav-links {
+        /* background: var(--secondary-green); */
+        background: #46624a89;
+        position: absolute;
+        top: 90px;
+        left: 0;
+        right: 0;
+        padding: 20px;
+        flex-direction: column;
+        text-align: center;
+        /* transform: translateX(100%); */
+        transform: scale(0);
+        transform-origin: top right;
+        transition: 0.4s;
+        /* display: none; */
+    }
+
+    .show {
+        /* transform: translateX(0%); */
+        transform: scale(1);
+        opacity: 1;
+        /* display: block; */
+    }
+
+    .nav-links a {
+        background: var(--bg-white);
+        color: var(--primary-dark-blue);
+        display: block;
+        width: 90%;
+        margin: auto;
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    /* hero section */
+    .hero-section {
+        padding: 20px;
+    }
+
+    .hero-img {
+        /* width: 95%; */
+        margin: auto;
+        height: 60vh;
+    }
+
+    .subject-categories {
+        /* background: lightblue; */
+        width: 100%;
+        gap: 10px;
+    }
+
+    .hero-info {
+        width: 100%;
+    }
+
+    .skills {
+        gap: 40px;
+        flex-direction: column-reverse;
+    }
+
+
+}

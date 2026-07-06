@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            background: lightblue;
+            padding: 50px;
+        }
+
+        /* desktop-first approach */
+        /* start from largest to smallest viewport */
+
+        /* when screen size less than 1000px */
+        @media (max-width: 1000px) {
+            p {
+                background: pink;
+                padding: 30px;
+            }
+        }
+
+        /* when screen size less than 768px */
+        @media (max-width: 768px) {
+            p {
+                background: green;
+                padding: 20px;
+                color: #fff;
+            }
+        }
+
+        /* when screen size less than 480px */
+        @media (max-width: 480px) {
+            p {
+                background: red;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt aliquam error deleniti. Recusandae nihil
+        dolorem soluta quo est unde facilis? Accusantium quibusdam reprehenderit suscipit qui perferendis, dolore
+        incidunt. Deserunt laboriosam sed, necessitatibus aut magnam eum voluptatum quisquam cupiditate accusamus
+        facilis sint alias laudantium corporis recusandae nulla at illo quis? Laboriosam iure rem sit corrupti nihil
+        adipisci nisi, praesentium repellendus, quos voluptatem quae iste! Dolor sunt itaque reprehenderit possimus
+        architecto maxime dicta exercitationem pariatur veritatis veniam ab tenetur expedita voluptates officia aliquid
+        animi, consectetur minus nesciunt. Corrupti, libero nisi culpa, alias earum accusamus odio, eligendi perferendis
+        atque quis incidunt modi sed?</p>
+</body>
+
+</html>
